@@ -27,7 +27,7 @@ body {
     justify-content: center;
     padding: 20px 30px;
     position: relative;
-    margin: 100px 0;
+    margin: 100px 0px;
     z-index: 10;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .track-art {
-    margin: 25px;
+    margin: 10px;
     height: 180px;
     width: 180px;
     border: 2px solid #fff;
@@ -59,12 +59,12 @@ body {
 }
 
 .track-name {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .track-artist {
-    margin-top: 5px;
-    font-size: 1.5rem;
+    margin-top: 3px;
+    font-size: 1rem;
 }
 
 .buttons {
@@ -160,8 +160,21 @@ i.fa-step-backward{
     color: black;
 }
 
+/* .rotate{
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+} */
+
 .loader {
-    height: 70px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,10 +182,10 @@ i.fa-step-backward{
 
 .loader .stroke {
     background: #f1f1f1;
-    height: 150%;
-    width: 10px;
-    border-radius: 50px;
-    margin: 0px 50px;
+    height: 50px;
+    width: 8px;
+    border-radius: 10px;
+    margin: 0px 5px;
     animation: animate 1.4s linear infinite;
 }
 
