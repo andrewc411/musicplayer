@@ -2,15 +2,17 @@
 
 * {
     box-sizing: border-box;
+    color: #f1f1f1;
 }
 
 body {
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/170407220916-04-iconic-mountains-matterhorn-restricted.jpg?q=w_2512,h_1413,x_0,y_0,c_fill/h_618);
+    background-size: cover;
     height: 100vh;
+    width: auto;
     margin: 0;
     font-family: 'Prompt', sans-serif;
-    text-shadow: whitesmoke 2px 2px 2px;
-    text-decoration: solid;
-    background-image: linear-gradient(0deg, rgb(247, 247, 247) 23.8% , rgb(252, 221, 221) 92%);
+    text-shadow: 0px 0px 5px #f1f1f1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,23 +20,24 @@ body {
 }
 
 .player {
-    /* background-color: white; */
-    /* border-radius: 15px; */
-    /* box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6); */
+    background-image: radial-gradient(rgb(253, 200, 139), rgb(3, 0, 29));
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 5px white;
+    width: fit-content;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 30px;
+    /* padding: 10px 20px; */
     position: relative;
-    margin: 100px 0px;
-    z-index: 10;
+    /* margin: 0px 0px; */
+    /* z-index: 10; */
 }
 
 .wrapper {
     border: 1px solid transparent;
-    padding: 30px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -47,9 +50,10 @@ body {
 
 .track-art {
     margin: 10px;
-    height: 180px;
-    width: 180px;
+    height: 250px;
+    width: 250px;
     border: 2px solid #fff;
+    border-radius: 200px;
     background-size: cover;
     background-position: center;
 }
@@ -71,7 +75,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 30px;
+    justify-content: center;
+    /* margin-bottom: 0px; */
+    padding: 15px;
+    margin: 10px;
 }
 
 .active {
@@ -83,8 +90,8 @@ body {
 .playpause-track,
 .prev-track,
 .next-track {
-    padding: 25px;
-    opacity: 0.8;
+    padding: 5px;
+    opacity: 0.6;
     transition: opacity 0.2s;
 }
 
@@ -160,7 +167,7 @@ i.fa-step-backward{
     color: black;
 }
 
-/* .rotate{
+.rotate{
     animation: rotation 8s infinite linear;
 }
 
@@ -171,7 +178,7 @@ i.fa-step-backward{
     to {
         transform: rotate(359deg);
     }
-} */
+}
 
 .loader {
     height: 30px;
@@ -185,7 +192,7 @@ i.fa-step-backward{
     height: 50px;
     width: 8px;
     border-radius: 10px;
-    margin: 0px 5px;
+    margin: 5px 5px;
     animation: animate 1.4s linear infinite;
 }
 
