@@ -34,16 +34,58 @@ const music_list = [
     music: 'audio/Gorillaz - Crystalised (The XX Cover).mp3'
   },
   {
+    img: 'img/grandmother.jpg',
+    name: 'Grandmother',
+    artist: 'Hotel Ugly',
+    music: 'audio/Grandmother.mp3'
+  },
+  {
+    img: 'img/famjam4000.png',
+    name: 'FAMJAM4000',
+    artist: 'Jordan Ward',
+    music: 'audio/Jordan Ward - FAMJAM4000.mp3' 
+  },
+  {
     img: 'img/ImLeaving.jpg',
     name: "I'm Leaving",
     artist: 'Mos Def',
     music: "audio/Mos Def - I'm Leaving.mp3"
   },
   {
+    img: 'img/sanPedro.jpg',
+    name: 'San Pedro',
+    artist: 'Mogwai',
+    music: "audio/Mogwai - San Pedro.mp3"
+  },
+  {
+    img: 'img/love&hate.jpg',
+    name: 'Love & Hate',
+    artist: 'Michael Kiwanuka',
+    music: "audio/Love & Hate.mp3"
+  },
+  {
     img: 'img/ThePromisedLand.jpg',
     name: 'The Promised Land',
     artist: 'J. Cole ft. Andre 3000',
     music: 'audio/The Promised Land ft. J. Cole Andre 3000.mp3'
+  },
+  {
+    img: 'img/weightoflove.jpg',
+    name: 'Weight of Love',
+    artist: 'The Black Keys',
+    music: 'audio/The Black Keys - Weight of Love.mp3'
+  },
+  {
+    img: 'img/politics&violence.jpg',
+    name: 'Politics & Violence',
+    artist: 'Dominic Fike',
+    music: 'audio/Politics & Violence.mp3'
+  },
+  {
+    img: 'img/workinout.jpg',
+    name: 'Workin Out',
+    artist: 'JID',
+    music: 'audio/Workin Out.mp3'
   }
 ];
 
