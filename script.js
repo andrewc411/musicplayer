@@ -25,25 +25,25 @@ const music_list = [
     img: 'img/Atmosphere-Sunshine.jpg',
     name: 'Sunshine',
     artist: 'Atmosphere',
-    music: 'music/Atmosphere-Sunshine.mp3'
+    music: 'audio/Atmosphere-Sunshine.mp3'
   },
   {
     img: 'img/Crystalised.jpg',
     name: 'Crystalised',
     artist: 'Gorillaz',
-    music: 'music/Gorillaz - Crystalised (The XX Cover).mp3'
+    music: 'audio/Gorillaz - Crystalised (The XX Cover).mp3'
   },
   {
     img: 'img/ImLeaving.jpg',
     name: "I'm Leaving",
     artist: 'Mos Def',
-    music: "music/Mos Def - I'm Leaving.mp3"
+    music: "audio/Mos Def - I'm Leaving.mp3"
   },
   {
     img: 'img/ThePromisedLand.jpg',
     name: 'The Promised Land',
     artist: 'J. Cole ft. Andre 3000',
-    music: 'music/The Promised Land ft. J. Cole Andre 3000.mp3'
+    music: 'audio/The Promised Land ft. J. Cole Andre 3000.mp3'
   }
 ];
 
