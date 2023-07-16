@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&family=Prompt:wght@500&family=Shadows+Into+Light&display=swap');
 
-* {
-    box-sizing: border-box;
-    color: white;
-}
-
 body {
     background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/170407220916-04-iconic-mountains-matterhorn-restricted.jpg?q=w_2512,h_1413,x_0,y_0,c_fill/h_618);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     width: auto;
     margin: 0;
     font-family: 'Prompt', sans-serif;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,8 +16,19 @@ body {
 }
 
 .player {
-    background-image: radial-gradient(rgb(255, 162, 55), rgb(31, 4, 236));
+    background: 
+    radial-gradient(
+      farthest-side at bottom left,
+      rgba(255, 0, 255, 0.5), 
+      transparent
+    ),
+    radial-gradient(
+      farthest-corner at bottom right,
+      rgba(255, 50, 50, 0.5), 
+      transparent 400px
+    );
     border-radius: 30px;
+    border: 1px solid #fff;
     width: fit-content;
     display: flex;
     align-items: center;
@@ -70,9 +78,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     /* margin-bottom: 0px; */
-    padding: 15px;
+    padding: 5px;
     margin: 10px;
 }
 
@@ -173,52 +181,4 @@ i.fa-step-backward{
     to {
         transform: rotate(359deg);
     }
-}
-
-.loader {
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.loader .stroke {
-    background: #f1f1f1;
-    height: 50px;
-    width: 8px;
-    border-radius: 10px;
-    margin: 5px 5px;
-    animation: animate 1.4s linear infinite;
-}
-
-@keyframes animate{
-    50%{
-        height: 20%;
-        background: #4286f4;
-    }
-    100%{
-        height: 100%;
-    }
-}
-
-.stroke:nth-child(1){
-    animation-delay: 0s;
-}
-.stroke:nth-child(2){
-    animation-delay: 0.3s;
-}
-.stroke:nth-child(3){
-    animation-delay: 0.6s;
-}
-.stroke:nth-child(4){
-    animation-delay: 0.9s;
-}
-.stroke:nth-child(5){
-    animation-delay: 0.6s;
-}
-.stroke:nth-child(6){
-    animation-delay: 0.3s;
-}
-.stroke:nth-child(7){
-    animation-delay: 0s;
 }
