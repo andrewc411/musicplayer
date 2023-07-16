@@ -26,4 +26,4 @@ Make changes to styling (add music visualizer)
 
 <a href="https://andrewc411.github.io/musicplayer/">Click Here to View
 
-![Alt text](<img/Screenshot (12).png>)
+![Alt text](<img/Screenshot (13).png>)
