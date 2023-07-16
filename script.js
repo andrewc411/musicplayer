@@ -135,14 +135,12 @@ function playpauseTrack() {
 function playTrack() {
   current_track.play();
   isPlaying = true;
-  wave.classList.add('loader');
   track_art.classList.add('rotate');
   playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-3x"></i>';
 }
 function pauseTrack() {
   current_track.pause();
   isPlaying = false;
-  wave.classList.remove('loader');
   track_art.classList.remove('rotate');
   playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-3x"></i>';
 }
