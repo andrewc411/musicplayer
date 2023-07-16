@@ -19,7 +19,7 @@ body {
 }
 
 .player {
-    background-image: radial-gradient(rgb(255, 162, 55), rgb(6, 0, 52));
+    background-image: radial-gradient(rgb(255, 162, 55), rgb(31, 4, 236));
     border-radius: 30px;
     width: fit-content;
     display: flex;
@@ -33,7 +33,7 @@ body {
     border: 1px solid transparent;
     padding: 10px;
     border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
 }
 
 .details {
