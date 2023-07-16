@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&family=Prompt:wght@500&family=Shadows+Into+Light&display=swap');
 
 body {
-    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/170407220916-04-iconic-mountains-matterhorn-restricted.jpg?q=w_2512,h_1413,x_0,y_0,c_fill/h_618);
-    background-size: cover;
+    background-image: url('https://images7.alphacoders.com/131/1319974.png');
+    background-position: center;
+    background-size: stretch;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: auto;
     margin: 0;
     font-family: 'Prompt', sans-serif;
     color: white;
