@@ -1,0 +1,22 @@
+{
+  "name": "musicplayer",
+  "version": "1.0.0",
+  "description": "This is a simple music player that plays mp3 files and allows the user to play, pause, and switch between different tracks. Mp3 files have been preferenced to my taste in music.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewc411/musicplayer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewc411/musicplayer/issues"
+  },
+  "homepage": "https://github.com/andrewc411/musicplayer#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
