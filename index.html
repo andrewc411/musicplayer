@@ -39,12 +39,6 @@
   <body>
     <div class="slideshow-container">
       <div class="slide"></div>
-      <div class="slide"></div>
-      <div class="slide"></div>
-      <div class="slide"></div>
-      <div class="slide"></div>
-      <div class="slide"></div>
-      <div class="slide"></div>
 <div id="page-container">
     <div class="content" id="content-wrap">
         <div class="animate__animated animate__zoomIn animate__delay-1s player">
@@ -120,6 +114,7 @@
         'assets/BGimages/BGimg1.jpg',
         'assets/BGimages/BGimg2.jpg',
         'assets/BGimages/BGimg3.jpg',
+        'assets/BGimages/BGimg4.jpg',
         'assets/BGimages/BGimg5.jpg',
         'assets/BGimages/BGimg6.jpg',
         'assets/BGimages/BGimg7.jpg'
@@ -127,7 +122,7 @@
     var currentImageIndex = 0;
     
     var slideshow = document.querySelector('.slideshow-container');
-    var slides = document.querySelectorAll('.slide');
+    var slide = document.querySelector('.slide');
 
     function loadNextImage() {
         currentImageIndex = (currentImageIndex + 1) % images.length;
@@ -137,26 +132,22 @@
         nextImage.src = images[currentImageIndex];
 
         // Fade out the current slide
-        slides[0].style.opacity = 1;
-
+        slide.style.opacity = 0;
+        
         setTimeout(function () {
-            // Set the background image of the next slide
-            slides[1].style.backgroundImage = 'url("' + images[currentImageIndex] + '")';
+            // Set the background image of the slide
+            slide.style.backgroundImage = 'url("' + images[currentImageIndex] + '")';
 
-            // Fade in the next slide
-            slides[1].style.opacity = 1;
-
-            // Swap the slides
-            slideshow.appendChild(slides[0]); // Move the current slide to the end
-        }, 500); // Delay for fade-out effect
+            // Fade in the slide
+            slide.style.opacity = 1;
+        }, 0); // Delay for fade-out effect
     }
 
     function startSlideshow() {
-        // Set initial background images
-        slides[0].style.backgroundImage = 'url("' + images[currentImageIndex] + '")';
-        slides[1].style.backgroundImage = 'url("' + images[(currentImageIndex + 1) % images.length] + '")';
+        // Set initial background image for the slide
+        slide.style.backgroundImage = 'url("' + images[currentImageIndex] + '")';
         
-        setInterval(loadNextImage, 5000); // 5 seconds delay for each image
+        setInterval(loadNextImage, 15000); // 5 seconds delay for each image
     }
 
     startSlideshow();
