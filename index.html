@@ -116,7 +116,9 @@
         'assets/BGimages/BGimg4.jpg',
         'assets/BGimages/BGimg5.jpg',
         'assets/BGimages/BGimg6.jpg',
-        'assets/BGimages/BGimg7.jpg'
+        'assets/BGimages/BGimg7.jpg',
+        'assets/BGimages/BGimg8.jpg',
+        'assets/BGimages/BGimg9.jpg'
     ];
     var currentImageIndex = 0;
     
@@ -146,7 +148,7 @@
         // Set initial background image for the slide
         slide.style.backgroundImage = 'url("' + images[currentImageIndex] + '")';
         
-        setInterval(loadNextImage, 15000); // 5 seconds delay for each image
+        setInterval(loadNextImage, 15000); // 15 seconds delay for each image
     }
 
     startSlideshow();
