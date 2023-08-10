@@ -22,67 +22,67 @@ let updateTimer;
 
 const music_list = [
   {
-    img: 'assets/AlbumArt/Atmosphere-Sunshine.jpg',
+    img: 'images/AlbumArt/Atmosphere-Sunshine.jpg',
     name: 'Sunshine',
     artist: 'Atmosphere',
     music: 'audio/Atmosphere-Sunshine.mp3'
   },
   {
-    img: 'assets/AlbumArt/Crystalised.jpg',
+    img: 'images/AlbumArt/Crystalised.jpg',
     name: 'Crystalised',
     artist: 'Gorillaz',
     music: 'audio/Gorillaz - Crystalised (The XX Cover).mp3'
   },
   {
-    img: 'assets/AlbumArt/grandmother.jpg',
+    img: 'images/AlbumArt/grandmother.jpg',
     name: 'Grandmother',
     artist: 'Hotel Ugly',
     music: 'audio/Grandmother.mp3'
   },
   {
-    img: 'assets/AlbumArt/famjam4000.png',
+    img: 'images/AlbumArt/famjam4000.png',
     name: 'FAMJAM4000',
     artist: 'Jordan Ward',
     music: 'audio/Jordan Ward - FAMJAM4000.mp3' 
   },
   {
-    img: 'assets/AlbumArt/ImLeaving.jpg',
+    img: 'images/AlbumArt/ImLeaving.jpg',
     name: "I'm Leaving",
     artist: 'Mos Def',
     music: "audio/Mos Def - I'm Leaving.mp3"
   },
   {
-    img: 'assets/AlbumArt/mogwai.jpg',
+    img: 'images/AlbumArt/mogwai.jpg',
     name: 'San Pedro',
     artist: 'Mogwai',
     music: "audio/Mogwai - San Pedro.mp3"
   },
   {
-    img: 'assets/AlbumArt/love&hate.jpg',
+    img: 'images/AlbumArt/love&hate.jpg',
     name: 'Love & Hate',
     artist: 'Michael Kiwanuka',
     music: "audio/Love & Hate.mp3"
   },
   {
-    img: 'assets/AlbumArt/ThePromisedLand.jpg',
+    img: 'images/AlbumArt/ThePromisedLand.jpg',
     name: 'The Promised Land',
     artist: 'J. Cole ft. Andre 3000',
     music: 'audio/The Promised Land ft. J. Cole Andre 3000.mp3'
   },
   {
-    img: 'assets/AlbumArt/weightoflove.jpg',
+    img: 'images/AlbumArt/weightoflove.jpg',
     name: 'Weight of Love',
     artist: 'The Black Keys',
     music: 'audio/The Black Keys - Weight of Love.mp3'
   },
   {
-    img: 'assets/AlbumArt/politics&violence.jpg',
+    img: 'images/AlbumArt/politics&violence.jpg',
     name: 'Politics & Violence',
     artist: 'Dominic Fike',
     music: 'audio/Politics & Violence.mp3'
   },
   {
-    img: 'assets/AlbumArt/workinout.jpg',
+    img: 'images/AlbumArt/workinout.jpg',
     name: 'Workin Out',
     artist: 'JID',
     music: 'audio/Workin Out.mp3'
