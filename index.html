@@ -141,14 +141,14 @@
 
             // Fade in the slide
             slide.style.opacity = 1;
-        }, 0); // Delay for fade-out effect
+        }, 100); // Delay for fade-out effect
     }
 
     function startSlideshow() {
         // Set initial background image for the slide
         slide.style.backgroundImage = 'url("' + images[currentImageIndex] + '")';
         
-        setInterval(loadNextImage, 15000); // 15 seconds delay for each image
+        setInterval(loadNextImage, 13000); // 15 seconds delay for each image
     }
 
     startSlideshow();
